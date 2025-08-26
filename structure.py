@@ -10,6 +10,6 @@ for section in sections:
     for subsection in os.listdir(f"{main_dir}\\{section}"):
         OUTPUT.write(f"## {subsection}\n")
         for file in os.listdir(f"{main_dir}\\{section}\\{subsection}"):
-            OUTPUT.write(f"[ ] {file.replace(".pdf", "")}\n")
+            OUTPUT.write(f"- [ ] {file.replace(".pdf", "")}\n")
         OUTPUT.write("\n")
     OUTPUT.write("\n")
