@@ -1,0 +1,1 @@
+OUTPUT = open("README.md", "w+")
